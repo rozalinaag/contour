@@ -9,18 +9,21 @@
   </head>
   <body>
     <div id="app">
-      <header class="header">ГК Контур</header>
+      <header class="header">
+        <div>ГК Контур</div>
+        <div class="scrollbox-container">
+          <div class="scrollbox" id="scrollbox">
+            <div class="scrollbox-content">
+              <p>Контент внутри скроллбокса.</p>
+              <p>Прокрутите вниз или нажмите кнопку.</p>
+              <p>Можно добавить больше контента...</p>
+              <p>Еще больше текста...</p>
+              <p>И еще немного...</p>
+            </div>
+          </div>
+        </div>
 
-      <div>
-        <canvas id="canvas"></canvas>
-        <canvas id="canvas2"></canvas>
-      </div>
-
-      <div class="controls">
-        <div class="control"></div>
-        <div class="control"></div>
-        <div class="control"></div>
-      </div>
+      </header>
 
       <div>
         <button>Отправить</button>
